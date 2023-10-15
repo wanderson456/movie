@@ -25,10 +25,10 @@
 #search-form {
     margin: 0 auto;
     background: #FFF;
-    border-radius: 3px;
-    width: 65%;
-    margin-left: 150px;
-    max-height: 40px
+    border-radius:3px;
+    width:65%;
+    margin-left:150px;
+    max-height:40px
 }
 
 #search-form.form-control {
@@ -38,23 +38,19 @@
 }
 #navbar {
     min-width: 30%;
+    
 }
+
 .navbar-nav {
     justify-content:flex-end;
-    width: 100%;
-
+    width:100%;
 }
-.navbar nav.nav-item.nav-link {
-    color: #fff ;
-    transition: .5s;
-
-
+.navbar .nav-item .nav-link {
+    color:#FFF;
+    transition:.5s;
 }
-.navbar-nav.nav-item.nav-link:hover {
-    color: #999;
-    
-
-
+.navbar .nav-item .nav-link:hover {
+    color:#999;
 }
 
 .bold {
@@ -95,6 +91,40 @@
     color: #fff;
     min-width: 65vh;
     padding: 40px;
+
+}
+#auth-row {
+    justify-content: space-evenly;
+}
+#login-container h2,
+#register-container h2 {
+    text-align: center;
+    border-bottom: 2px solid #f5c518;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+#login-container form,
+#register-container form {
+    max-width: 400px;
+    margin: 30px auto;
+
+}
+.card-btn {
+    color:#000;
+    background-color: #f5c518;
+    border: 2px solid #f5c518;
+    width: 100%;
+
+}
+.card-btn:hover {
+    background-color: transparent;
+    color: #f5c518;
+    border-color: #f5c518;
+    
+
 
 }
 
