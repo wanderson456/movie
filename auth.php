@@ -21,7 +21,7 @@ require_once("templates/header.php");
                             <input type="password" class="form-control" placeholder="Digite sua senha" id="senha" name="senha">
 
                         </div>
-                        <p></p>
+                        <br>
 
                         <input type="submit" class="btn card-btn" value="Entrar">
 
@@ -58,7 +58,7 @@ require_once("templates/header.php");
                             <input type="password" class="form-control" placeholder="Confirme sua senha" id="confimacaosenha" name="confimacaosenha">
 
                         </div>
-                        <p></p>
+                        <br>
                         <input type="submit" class="btn card-btn" value="Cadastrar">
 
                     </form>
